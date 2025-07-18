@@ -1,6 +1,6 @@
 ## CCDAK Study Notes: Key Sections \& Exam Concepts
 
-These concise notes are organized to give you a rapid, effective MCQ-focused review for the Confluent Certified Developer for Apache Kafka (CCDAK) exam. Each section covers definitions, configurations, behaviors, and real exam tips, derived from the best open-source guides, your repo, and recent expert recommendations[^1][^2][^3][^4][^5][^6].
+These concise notes are organized to give you a rapid, effective MCQ-focused review for the Confluent Certified Developer for Apache Kafka (CCDAK) exam. Each section covers definitions, configurations, behaviors, and real exam tips, derived from the best open-source guides, your repo, and recent expert recommendations
 
 ### 1. Producer
 
@@ -20,7 +20,7 @@ These concise notes are organized to give you a rapid, effective MCQ-focused rev
 - **Error Handling**
     - Retriable errors: `LEADER_NOT_AVAILABLE`, `NOT_LEADER_FOR_PARTITION`.
     - Non-retriable errors: `RecordTooLargeException`, `TopicAuthorizationException`.
-    - Use callback mechanisms and handle errors from `send()` gracefully[^7][^8].
+    - Use callback mechanisms and handle errors from `send()` gracefully.
 - **Performance Tips**
     - Increase `batch.size`, and adjust `linger.ms` for higher throughput when batching is desired.
     - Compression reduces bandwidth and disk usage.
