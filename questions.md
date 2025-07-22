@@ -60,9 +60,9 @@ D. CooperativeStickyAssignor
 <details>
 <summary>Answer</summary>
 
-**C. StickyAssignor**
+**D. CooperativeStickyAssignor**
 
-The StickyAssignor is designed to minimize partition movements by trying to keep the same partitions assigned to the same consumers across rebalances, while still maintaining balanced assignments.
+The CooperativeStickyAssignor is designed to minimize partition movements by trying to keep the same partitions assigned to the same consumers across rebalances, while still maintaining balanced assignments.
 
 </details>
 
